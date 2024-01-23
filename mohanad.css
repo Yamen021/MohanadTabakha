@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+body{
+  background-image: linear-gradient(to bottom, black 90%, transparent)
+}
+
+header{
+  width: 100%;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  padding: 10px 0 10px 42%;
+}
+header a{
+  padding-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  color: black;
+}
+
+header a:hover{
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-size: 14px;
+  transition: 0.5s ease;
+  position: relative;
+}
+
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  margin: 40px 0 0 0;
+  
+  
+}
+
+.main .f{
+  color: white;
+  
+  
+}
+.main .f h1{
+  padding: 200px 200px;
+  font-size: 16px;
+  color: bisque;
+  
+  
+  
+}
+
+.main .image img{
+  width: 50vw;
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  border-radius: 10px;
+}
+
+.main .f p{
+  text-align: center;
+  font-variant-caps: all-small-caps;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.main .f pre{
+  text-align: center;
+  font-size: 10px;
+  
+  
+}
+
+.main .f h6{
+  text-align: center;
+  padding-top: 30px;
+  text-transform: capitalize;
+  font-family: monospace;
+  
+}
+
+.btime{
+  display: flex;
+}
+
+.btime div{
+  flex-basis: 100px;
+}
+
+.btime div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+  color: white;
+}
+
+.btime div span{
+  color: white;
+}
